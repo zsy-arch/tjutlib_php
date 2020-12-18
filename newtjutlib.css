@@ -1,0 +1,109 @@
+body {
+    background-color: lightgray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.lib-header {
+    padding: 3px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-bottom: lightgray 3px solid;
+    font-size: 1.3em;
+}
+
+.lib-main1 {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.lib-main-item {
+    font-family: '微软雅黑', sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+    height: auto;
+    border-bottom: 0.5mm lightgray solid;
+    padding: 10px;
+}
+
+.lib-student, .lib-student-symbol, .lib-student-symbol-red {
+    display: inline-block;
+}
+
+.lib-student-symbol, .lib-student-symbol-red {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    width: 50px;
+    border-radius: 8px;
+}
+
+.lib-student-symbol-red {
+    background-color: #f26665;
+}
+
+.lib-student-symbol {
+    background-color: #51c7c9;
+}
+
+.lib-student-date, .lib-student-type {
+    color: gray;
+    padding-top: 10px;
+    display: inline-block;
+    width: auto;
+}
+
+.lib-student-type {
+    position: relative;
+    float: right;
+    padding-right: 1em;
+}
+
+.lib-main1-add {
+    position: fixed;
+    bottom: 5em;
+    right: 1em;
+    width: 3em;
+    height: 3em;
+    background-color: #51c7c9;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+
+.lib-main1-add-h, .lib-main1-add-v {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.lib-main1-add-h {
+    width: 10%;
+    height: 61.8%;
+    background-color: #ffffff;
+}
+
+
+.lib-main1-add-v {
+    width: 61.8%;
+    height: 10%;
+    background-color: #ffffff;
+}
+
+.lib-main2-ldiv, .lib-main2-rdiv {
+    padding: 10px;
+    display: inline-block;
+}
+
+.lib-main2-ldiv {
+    color: gray;
+}
