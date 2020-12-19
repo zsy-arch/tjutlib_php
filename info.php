@@ -58,7 +58,7 @@ function infoPage($name, $num, $id, $from, $to, $v = 0)
         body {
             margin: 0;
             padding: 0;
-            background-color: lightgray;
+            background-color: #f9f9f9;
         }
 
         .lib-main2 {
